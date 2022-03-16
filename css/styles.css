@@ -174,12 +174,64 @@ padding: 10px 22px;
     color:#DE2E54
 }
 
+
+
+.main-link-solid:hover {
+    border-color: transparent;
+    background-color: rgba(222, 46, 84, 0.8);
+    color: #fff;
+}
+
+.main-link-solid:active {
+
+    background-color: rgba(222, 46, 84, 0.6);
+    opacity: 1;
+}
+
+
 .main-link:active {
     background: #DE2E54;
 opacity: 0.6;
 color:#FFFFFF
 }
 
+
+ /*  HERO */
+ .hero {
+    background: #0EB4C1;
+    color: #fff;
+ }
+ .hero-content {
+     width: 500px;
+     padding-top: 120px;
+     padding-bottom: 120px;
+
+ }
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-heading {
+font-family: 'Open Sans Condensed','Open sans', 'Arial', 'sans-serif';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+margin-top: 0;
+margin-bottom: 16px;
+}
+
+.hero-text {
+width: 440px;
+margin-top: 0;
+margin-bottom: 36px;
+}
+
+.hero-img {
+    align-self: flex-end;     /* РАСМ ПАСТГА ТАКАЛИБ ТУРИШ УЧУН */
+}
 
 /* SITE-FOOTER */ 
 .site-footer {
